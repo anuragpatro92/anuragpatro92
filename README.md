@@ -13,46 +13,46 @@ The idea to is to collect the data from each file and use a dictionary, pojo cla
 
 __Output:__
 
-```json{
-"list": {
-"uid": "38",
-"full_name": "Mailing List Manager",
-"groups": []
-},
-"nobody": {
-"uid": "65534",
-"full_name": "nobody",
-"groups": []
-},
-"lxd": {
-"uid": "106",
-"full_name": "",
-"groups": []
-},
-"ubuntu": {
-"uid": "1000",
-"full_name": "Ubuntu",
-"groups": [
-"adm",
-"cdrom",
-"dip",
-"docker",
-"netdev",
-"plugdev",
-"floppy",
-"dialout",
-"audio",
-"lxd",
-"sudo",
-"video"
-]
-},
-"man": {
-"uid": "6",
-"full_name": "man",
-"groups": []
+```json
+{
+	"list": {
+		"uid": "38",
+		"full_name": "Mailing List Manager",
+		"groups": []
+	},
+	"nobody": {
+		"uid": "65534",
+		"full_name": "nobody",
+		"groups": []
+	},
+	"lxd": {
+		"uid": "106",
+		"full_name": "",
+		"groups": []
+	},
+	"ubuntu": {
+		"uid": "1000",
+		"full_name": "Ubuntu",
+		"groups": [
+			"adm",
+			"cdrom",
+			"dip",
+			"docker",
+			"netdev",
+			"plugdev",
+			"floppy",
+			"dialout",
+			"audio",
+			"lxd",
+			"sudo",
+			"video"
+		]
+	},
+	"man": {
+		"uid": "6",
+		"full_name": "man",
+		"groups": []
+	}
 }
-}
-
 ```
 
